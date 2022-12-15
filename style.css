@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+.row{
+    margin-right: 0px !important;
+}
+/* ************ RESPONSIVE ********** */
+@media screen and (min-width: 768px){
+    .footer-r{
+        padding-top: 100px;
+    }
+    .hero-img{
+        height: 700px!important;
+        width: 600px;
+    
+    }
+    .t3{
+        margin: 400px 50px 0px 50px;
+    display: flex;
+    }
+    .intro-img{
+        margin-top: 150px!important;
+    }
+    .intro-left ul{
+        line-height: 3;
+        padding-left: 50px;
+    }
+
+    .poster{
+        display: flex;
+        justify-content: space-around;
+    }
+    .below{
+        margin-left: 50px;
+        margin-top: 30px;
+        order: 1;
+    }
+    .poster-2{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .p1{
+        margin-left: 50px;
+        margin-right: 30px;
+    }
+.p3{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.poster-txt{
+    padding-top: 100px;
+padding-left: 50px!important;
+margin-left: 0px!important;
+}
+.brand{
+    padding-left: 80px;
+    padding-top: 130px;
+}
+.web-r img{
+    height: 450px !important;
+    width: 300px !important;
+}
+.web-r{
+    padding-right: 50px;
+}
+.logo{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.footer h2{
+    font-size: 20px;
+    padding-left: 100px;
+}
+.footer p{
+    font-size: 16px;
+    padding-left: 100px;
+  margin-bottom: 30px;
+}
+.footer h1{
+    font-size: 54px;
+    margin-bottom: 50px;
+}
+}
+@media all and (min-width:350px) and (max-width: 768px) {
+    .hero-img{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+.t3-2{
+    display: inline;
+}
+.poster{
+    display: grid;
+    height: 1400px;
+}
+.p2{
+    margin-left: 50px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.p4{
+transform: translateY(-100%)!important;
+margin-left: 220px;
+}
+.below{
+    transform: translateY(-80%);
+}
+.intro-img{
+    margin-top: 50px;
+    padding-left: 0px!important;
+}
+.intro-left ul{
+margin-bottom: 80px;}
+.poster-txt , .web h1{
+    margin-left: 0px!important;
+    text-align: center;
+}
+.brand {
+padding-top: 50px;
+text-align: center;
+padding-left: 60px !important;
+}
+.brand p,.poster-txt p{
+    padding-left: 30px;
+}
+.brand img{
+    margin-top: 30px;
+    padding-left: 0px !important;
+    padding-right: 50px;
+}
+.web-r{
+    display: flex;
+}
+.web h1{
+    padding-left: 50px;
+}
+.web p{
+    padding-top: 80px;
+    font-size: 16px !important;
+}
+.web img{
+ padding-left: 30px !important;
+}
+.logo{
+    text-align: center;
+    margin-left: 0px!important;
+}
+.logo img{
+    margin-left: 40px;
+}
+
+}
+
+
+*{
+    font-family: 'Libre Baskerville', serif;
+    background-color: #f6f6f6;
+}
+.hero-left{
+    padding: 50px;
+}
+
+.t1{
+    margin-bottom: 50px;
+}
+.t2{
+    font-size: 60px;
+margin-bottom: 100px;
+}
+
+.t3{
+    justify-content: space-between;
+    margin-bottom: 50px;
+    line-height: 4;
+}
+.t3-2{
+    border-bottom-style:solid ;
+}
+
+.intro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.intro-left ul{
+    list-style: none;
+line-height: 2.5;
+    font-size: 18px;
+}
+.intro-left{
+    padding-left: 30px;
+}
+
+.intro-left h5, .intro-mid h5{
+    margin-bottom: 40px;
+    font-size: 42px !important;
+    margin-left: 50px;
+}
+
+.intro-mid ul{
+    font-size: 18px;
+    line-height: 3;
+}
+.poster-txt h1, .brand h1{
+    font-size: 66px;
+    line-height: 1.5;
+}
+.poster-txt p, .brand p{
+    font-size: 24px;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.brand{
+    margin-right: 0px!important;
+}
+.web{
+    padding-top: 100px;
+    margin-right: 0px !important;
+padding-bottom: 100px;
+}
+.web h1{
+    margin-left: 50px;
+    font-size: 66px;
+    margin-bottom: 50px;
+}
+.web img{
+padding-left: 50px;
+padding-top: 30px;
+margin-bottom: 30px;
+}
+.web p{
+    font-size: 20px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.logo h1{
+    font-size: 66px;
+margin-bottom: 50px;
+margin-left: 50px;
+}
+.logo p{
+    font-size: 22px;
+    line-height: 1.5;
+    margin-left: 50px;
+}
+.logo img{
+    margin-bottom: 20px;
+}
+.footer{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    row-gap: 50px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+
