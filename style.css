@@ -18,7 +18,8 @@
     display: flex;
     }
     .intro-img{
-        margin-top: 150px!important;
+        margin-top: 60px!important;
+        height: 500px !important;
     }
     .intro-left ul{
         line-height: 3;
@@ -81,6 +82,10 @@ margin-left: 0px!important;
 }
 }
 @media all and (min-width:350px) and (max-width: 768px) {
+    .hero{
+        padding-left: 50px;
+        text-align: center;
+    }
     .hero-img{
         margin-left: 0px !important;
         margin-right: 0px !important;
@@ -113,11 +118,12 @@ margin-bottom: 80px;}
 .poster-txt , .web h1{
     margin-left: 0px!important;
     text-align: center;
+    padding-left: 40px !important;
 }
 .brand {
 padding-top: 50px;
 text-align: center;
-padding-left: 60px !important;
+padding-left: 20px !important;
 }
 .brand p,.poster-txt p{
     padding-left: 30px;
@@ -140,14 +146,13 @@ padding-left: 60px !important;
 .web img{
  padding-left: 30px !important;
 }
-.logo{
+.logo,.footer{
     text-align: center;
     margin-left: 0px!important;
 }
 .logo img{
     margin-left: 40px;
 }
-
 }
 
 
